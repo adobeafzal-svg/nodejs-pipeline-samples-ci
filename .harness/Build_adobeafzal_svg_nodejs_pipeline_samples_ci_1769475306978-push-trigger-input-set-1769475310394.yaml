@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_adobeafzal_svg_nodejs_pipeline_samples_ci_1769475306978-push-trigger-input-set
+  identifier: Build_adobeafzal_svg_nodejs_pipeline_samples_ci_1769475306978pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: harnesslabproject
+  pipeline:
+    identifier: Build_adobeafzal_svg_nodejs_pipeline_samples_ci_1769475306978
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
