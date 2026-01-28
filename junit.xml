@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="0.62">
+  <testsuite name="Unit Tests" errors="0" failures="0" skipped="0" timestamp="2026-01-28T03:43:16" time="0.565" tests="6">
+    <testcase classname="Unit Tests" name="add function should correctly add two numbers" time="0.001">
+    </testcase>
+    <testcase classname="Unit Tests" name="multiply function should correctly multiply two numbers" time="0.001">
+    </testcase>
+    <testcase classname="API Integration Tests" name="GET /health should return healthy status" time="0.01">
+    </testcase>
+    <testcase classname="API Integration Tests" name="POST /calculate/add should add two numbers" time="0.013">
+    </testcase>
+    <testcase classname="API Integration Tests" name="POST /calculate/multiply should multiply two numbers" time="0.001">
+    </testcase>
+    <testcase classname="API Integration Tests" name="POST /calculate/add should return error for invalid input" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
